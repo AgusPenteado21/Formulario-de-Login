@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Login</title>
+    <link rel="stylesheet" href="formu.css">
+    <script src="formu.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <div class="tabs">
+            <button class="tablinks" data-tab="login">Iniciar sesión</button>
+            <button class="tablinks" data-tab="register">Registrarse</button>
+            <button class="tablinks" data-tab="forgot">Olvidé mi contraseña</button>
+        </div>
+
+        <div id="login" class="tabcontent">
+            <h2>Iniciar sesión</h2>
+            <form action="#" method="POST">
+                <input type="text" placeholder="Correo electrónico" required>
+                <input type="password" placeholder="Contraseña" required>
+                <button type="submit">Iniciar sesión</button>
+            </form>
+        </div>
+
+        <div id="register" class="tabcontent">
+            <h2>Registrarse</h2>
+            <form action="#" method="POST">
+                <input type="text" placeholder="Nombre completo" required>
+                <input type="text" placeholder="Correo electrónico" required>
+                <input type="password" placeholder="Contraseña" required>
+                <button type="submit">Registrarse</button>
+            </form>
+        </div>
+
+        <div id="forgot" class="tabcontent">
+            <h2>Olvidé mi contraseña</h2>
+            <form action="#" method="POST">
+                <input type="text" placeholder="Correo electrónico" required>
+                <button type="submit">Enviar correo de recuperación</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
